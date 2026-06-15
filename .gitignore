@@ -1,0 +1,34 @@
+# Flutter/Dart specific
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+*.dart.js
+*.info.json
+*.packages
+*.pub-cache/
+*.swp
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Generated files (Riverpod/Freezed/etc.)
+*.g.dart
+*.freezed.dart
+
+# Firebase & OS specific
+android/local.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+GoogleService-Info.plist
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Logs and local build data
+*.log
+.packages
