@@ -11,7 +11,7 @@ class SensorRepositoryImpl implements ISensorRepository {
     return _remoteDataSource.getSensorData(zoneId).map((data) {      
       return SensorEntity(
         id: data.zoneId,
-        temperature: data.temperature, // Mapping the DTO fields
+        temperature: data.temperature,
         humidity: data.humidity,
         name: data.name,
       );

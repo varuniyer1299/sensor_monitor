@@ -9,7 +9,7 @@ final  goRouter = GoRouter(
     if (location.startsWith('myapp://')) {
       return location.replaceFirst('myapp://', '/');
     }
-    return null; // No redirect needed
+    return null;
   },
   routes: [
     GoRoute(
